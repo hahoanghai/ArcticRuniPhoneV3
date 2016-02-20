@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09A131511C77F6F800DF572D /* MainSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A1314F1C77F6F800DF572D /* MainSplash.storyboard */; };
+		09A131531C77F79000DF572D /* MainSplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A131521C77F78F00DF572D /* MainSplashController.swift */; };
 		5784A7221C76F19300EFBD10 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5784A7211C76F19300EFBD10 /* HealthKit.framework */; };
 		7C27F0CB1C76A655005484DE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F0CA1C76A655005484DE /* SWRevealViewController.m */; };
 		7C27F0D71C76BFCE005484DE /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F0D61C76BFCE005484DE /* HomePageViewController.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09A131501C77F6F800DF572D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainSplash.storyboard; sourceTree = "<group>"; };
+		09A131521C77F78F00DF572D /* MainSplashController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSplashController.swift; sourceTree = "<group>"; };
 		5784A7211C76F19300EFBD10 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		5784A7231C76F19300EFBD10 /* arcticrun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = arcticrun.entitlements; sourceTree = "<group>"; };
 		7C27F0C81C76A654005484DE /* arcticrun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arcticrun-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 				7C27F0D61C76BFCE005484DE /* HomePageViewController.swift */,
 				7C27F0D81C76C023005484DE /* FitnessViewController.swift */,
 				9E8B94391C6E92A90025CBBA /* Main.storyboard */,
+				09A1314F1C77F6F800DF572D /* MainSplash.storyboard */,
 				87B209311C77EB6100DDD815 /* HomeController.storyboard */,
 				87B2092E1C77EB5200DDD815 /* FitnessController.storyboard */,
 				87B2092C1C77EB3500DDD815 /* PedometerController.storyboard */,
@@ -157,6 +162,7 @@
 				9E8B943C1C6E92A90025CBBA /* Assets.xcassets */,
 				9E8B943E1C6E92A90025CBBA /* LaunchScreen.storyboard */,
 				9E8B94411C6E92A90025CBBA /* Info.plist */,
+				09A131521C77F78F00DF572D /* MainSplashController.swift */,
 			);
 			path = arcticrun;
 			sourceTree = "<group>";
@@ -295,6 +301,7 @@
 				87B209301C77EB5200DDD815 /* FitnessController.storyboard in Resources */,
 				9E8B94401C6E92A90025CBBA /* LaunchScreen.storyboard in Resources */,
 				9E8B943D1C6E92A90025CBBA /* Assets.xcassets in Resources */,
+				09A131511C77F6F800DF572D /* MainSplash.storyboard in Resources */,
 				87B2092B1C77E9A700DDD815 /* PartyController.storyboard in Resources */,
 				87B209261C77E7BB00DDD815 /* GoalsController.storyboard in Resources */,
 				87B209321C77EB6100DDD815 /* HomeController.storyboard in Resources */,
@@ -333,6 +340,7 @@
 				9E8B94361C6E92A90025CBBA /* AppDelegate.swift in Sources */,
 				7C27F0CB1C76A655005484DE /* SWRevealViewController.m in Sources */,
 				C259E4EF1C77C56D009539CC /* MapViewController.swift in Sources */,
+				09A131531C77F79000DF572D /* MainSplashController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +376,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		09A1314F1C77F6F800DF572D /* MainSplash.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09A131501C77F6F800DF572D /* Base */,
+			);
+			name = MainSplash.storyboard;
+			sourceTree = "<group>";
+		};
 		87B209291C77E9A700DDD815 /* PartyController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
