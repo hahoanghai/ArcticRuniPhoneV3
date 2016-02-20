@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2TG-jS-YJP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Pedometer View Controller-->
+        <scene sceneID="jOC-d8-2TE">
+            <objects>
+                <viewController id="s3i-eb-kUY" customClass="PedometerViewController" customModule="arcticrun" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dow-f1-acq"/>
+                        <viewControllerLayoutGuide type="bottom" id="WVj-G6-0U1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7bo-1I-ZQJ">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pedometer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyn-vP-PTA">
+                                <rect key="frame" x="158" y="142" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKL-Fs-QFK">
+                                <rect key="frame" x="183" y="321" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="start:" destination="s3i-eb-kUY" eventType="touchUpInside" id="xx0-nd-BYw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iay-lx-jRT">
+                                <rect key="frame" x="195" y="234" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SKL-Fs-QFK" firstAttribute="centerX" secondItem="7bo-1I-ZQJ" secondAttribute="centerX" id="EsQ-xY-i9S"/>
+                            <constraint firstItem="SKL-Fs-QFK" firstAttribute="centerX" secondItem="Iay-lx-jRT" secondAttribute="centerX" id="RTA-Wg-pzL"/>
+                            <constraint firstItem="Xyn-vP-PTA" firstAttribute="centerX" secondItem="Iay-lx-jRT" secondAttribute="centerX" id="qdG-ar-kRH"/>
+                            <constraint firstItem="SKL-Fs-QFK" firstAttribute="top" secondItem="Iay-lx-jRT" secondAttribute="bottom" constant="66" id="sMb-2X-FOE"/>
+                            <constraint firstItem="Iay-lx-jRT" firstAttribute="top" secondItem="Xyn-vP-PTA" secondAttribute="bottom" constant="71" id="uFz-iT-sr2"/>
+                            <constraint firstItem="Xyn-vP-PTA" firstAttribute="top" secondItem="dow-f1-acq" secondAttribute="bottom" constant="78" id="vVa-OL-pYF"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eWz-fT-aWB">
+                        <barButtonItem key="leftBarButtonItem" image="SliderLines" id="rbg-K1-0uN"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="rbg-K1-0uN" id="zeF-G3-Ziu"/>
+                        <outlet property="stepsText" destination="Iay-lx-jRT" id="rVR-AZ-mP7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IgO-Ct-9jS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1216" y="-2529"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nHX-K8-6lI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2TG-jS-YJP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="AbstractSizeClassScreen[widthClass=compact]"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="chG-gb-Cnt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="s3i-eb-kUY" kind="relationship" relationship="rootViewController" id="oqK-0q-Z5t"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1bl-Yu-dMF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="316" y="-2529"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SliderLines" width="57" height="57"/>
+    </resources>
+</document>

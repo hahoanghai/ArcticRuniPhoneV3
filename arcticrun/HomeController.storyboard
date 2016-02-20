@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Xwn-KX-Xys">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Home Page View Controller-->
+        <scene sceneID="0Lc-q2-6UD">
+            <objects>
+                <viewController id="WQF-B3-CeN" customClass="HomePageViewController" customModule="arcticrun" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h1n-eO-lgf"/>
+                        <viewControllerLayoutGuide type="bottom" id="st5-ii-9fw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="C10-j6-yK5">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Main Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rzv-Ab-FZq">
+                                <rect key="frame" x="241" y="289" width="80" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rzv-Ab-FZq" firstAttribute="centerY" secondItem="C10-j6-yK5" secondAttribute="centerY" id="atT-N7-I8i"/>
+                            <constraint firstItem="rzv-Ab-FZq" firstAttribute="centerX" secondItem="C10-j6-yK5" secondAttribute="centerX" id="od7-eA-481"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZmO-Lm-6SC">
+                        <barButtonItem key="leftBarButtonItem" image="SliderLines" id="eL4-F9-zau"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="eL4-F9-zau" id="8ZR-zc-mw0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="led-i8-JZc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1216" y="-4014"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="z6i-ZB-fXt">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xwn-KX-Xys" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="AbstractSizeClassScreen[widthClass=compact]"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Uv-jP-2sF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="WQF-B3-CeN" kind="relationship" relationship="rootViewController" id="Mx8-qe-kYh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1gj-pG-XqN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="316" y="-4014"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SliderLines" width="57" height="57"/>
+    </resources>
+</document>

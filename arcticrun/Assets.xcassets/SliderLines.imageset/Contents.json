@@ -1,0 +1,80 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "menu.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-2.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-3.png",
+      "height-class" : "regular",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-4.png",
+      "height-class" : "regular",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-5.png",
+      "height-class" : "regular",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-6.png",
+      "width-class" : "regular",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-7.png",
+      "width-class" : "regular",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-8.png",
+      "width-class" : "regular",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-9.png",
+      "width-class" : "regular",
+      "height-class" : "regular",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-10.png",
+      "width-class" : "regular",
+      "height-class" : "regular",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "menu-11.png",
+      "width-class" : "regular",
+      "height-class" : "regular",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

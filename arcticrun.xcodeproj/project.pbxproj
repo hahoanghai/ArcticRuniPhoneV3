@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5784A7221C76F19300EFBD10 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5784A7211C76F19300EFBD10 /* HealthKit.framework */; };
+		7C27F0CB1C76A655005484DE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F0CA1C76A655005484DE /* SWRevealViewController.m */; };
+		7C27F0D71C76BFCE005484DE /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F0D61C76BFCE005484DE /* HomePageViewController.swift */; };
+		7C27F0D91C76C023005484DE /* FitnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F0D81C76C023005484DE /* FitnessViewController.swift */; };
+		7C27F0DB1C76C07A005484DE /* PedometerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F0DA1C76C07A005484DE /* PedometerViewController.swift */; };
+		7C27F0DD1C76C0B7005484DE /* DailyGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C27F0DC1C76C0B7005484DE /* DailyGoalViewController.swift */; };
+		87B209261C77E7BB00DDD815 /* GoalsController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B209251C77E7BB00DDD815 /* GoalsController.storyboard */; };
+		87B209281C77E8E100DDD815 /* PartyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B209271C77E8E100DDD815 /* PartyViewController.swift */; };
+		87B2092B1C77E9A700DDD815 /* PartyController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B209291C77E9A700DDD815 /* PartyController.storyboard */; };
+		87B2092D1C77EB3500DDD815 /* PedometerController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B2092C1C77EB3500DDD815 /* PedometerController.storyboard */; };
+		87B209301C77EB5200DDD815 /* FitnessController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B2092E1C77EB5200DDD815 /* FitnessController.storyboard */; };
+		87B209321C77EB6100DDD815 /* HomeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B209311C77EB6100DDD815 /* HomeController.storyboard */; };
+		9E8B94361C6E92A90025CBBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B94351C6E92A90025CBBA /* AppDelegate.swift */; };
+		9E8B94381C6E92A90025CBBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B94371C6E92A90025CBBA /* ViewController.swift */; };
+		9E8B943B1C6E92A90025CBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8B94391C6E92A90025CBBA /* Main.storyboard */; };
+		9E8B943D1C6E92A90025CBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E8B943C1C6E92A90025CBBA /* Assets.xcassets */; };
+		9E8B94401C6E92A90025CBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E8B943E1C6E92A90025CBBA /* LaunchScreen.storyboard */; };
+		9E8B944B1C6E92A90025CBBA /* arcticrunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B944A1C6E92A90025CBBA /* arcticrunTests.swift */; };
+		9E8B94561C6E92A90025CBBA /* arcticrunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8B94551C6E92A90025CBBA /* arcticrunUITests.swift */; };
+		C259E4EF1C77C56D009539CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C259E4EE1C77C56D009539CC /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E8B94471C6E92A90025CBBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E8B942A1C6E92A90025CBBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E8B94311C6E92A90025CBBA;
+			remoteInfo = arcticrun;
+		};
+		9E8B94521C6E92A90025CBBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E8B942A1C6E92A90025CBBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E8B94311C6E92A90025CBBA;
+			remoteInfo = arcticrun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5784A7211C76F19300EFBD10 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		5784A7231C76F19300EFBD10 /* arcticrun.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = arcticrun.entitlements; sourceTree = "<group>"; };
+		7C27F0C81C76A654005484DE /* arcticrun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arcticrun-Bridging-Header.h"; sourceTree = "<group>"; };
+		7C27F0C91C76A655005484DE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		7C27F0CA1C76A655005484DE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		7C27F0D61C76BFCE005484DE /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		7C27F0D81C76C023005484DE /* FitnessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FitnessViewController.swift; path = ../FitnessViewController.swift; sourceTree = "<group>"; };
+		7C27F0DA1C76C07A005484DE /* PedometerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PedometerViewController.swift; sourceTree = "<group>"; };
+		7C27F0DC1C76C0B7005484DE /* DailyGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyGoalViewController.swift; sourceTree = "<group>"; };
+		87B209251C77E7BB00DDD815 /* GoalsController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GoalsController.storyboard; sourceTree = "<group>"; };
+		87B209271C77E8E100DDD815 /* PartyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyViewController.swift; sourceTree = "<group>"; };
+		87B2092A1C77E9A700DDD815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PartyController.storyboard; sourceTree = "<group>"; };
+		87B2092C1C77EB3500DDD815 /* PedometerController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PedometerController.storyboard; sourceTree = "<group>"; };
+		87B2092F1C77EB5200DDD815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FitnessController.storyboard; sourceTree = "<group>"; };
+		87B209311C77EB6100DDD815 /* HomeController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeController.storyboard; sourceTree = "<group>"; };
+		9E8B94321C6E92A90025CBBA /* arcticrun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arcticrun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8B94351C6E92A90025CBBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E8B94371C6E92A90025CBBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E8B943A1C6E92A90025CBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E8B943C1C6E92A90025CBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E8B943F1C6E92A90025CBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E8B94411C6E92A90025CBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8B94461C6E92A90025CBBA /* arcticrunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arcticrunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8B944A1C6E92A90025CBBA /* arcticrunTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcticrunTests.swift; sourceTree = "<group>"; };
+		9E8B944C1C6E92A90025CBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E8B94511C6E92A90025CBBA /* arcticrunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arcticrunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8B94551C6E92A90025CBBA /* arcticrunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arcticrunUITests.swift; sourceTree = "<group>"; };
+		9E8B94571C6E92A90025CBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C259E4EE1C77C56D009539CC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E8B942F1C6E92A90025CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5784A7221C76F19300EFBD10 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8B94431C6E92A90025CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8B944E1C6E92A90025CBBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C27F0C71C76A604005484DE /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7C27F0C91C76A655005484DE /* SWRevealViewController.h */,
+				7C27F0CA1C76A655005484DE /* SWRevealViewController.m */,
+				7C27F0C81C76A654005484DE /* arcticrun-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		9E8B94291C6E92A90025CBBA = {
+			isa = PBXGroup;
+			children = (
+				5784A7211C76F19300EFBD10 /* HealthKit.framework */,
+				9E8B94341C6E92A90025CBBA /* arcticrun */,
+				9E8B94491C6E92A90025CBBA /* arcticrunTests */,
+				9E8B94541C6E92A90025CBBA /* arcticrunUITests */,
+				9E8B94331C6E92A90025CBBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8B94331C6E92A90025CBBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E8B94321C6E92A90025CBBA /* arcticrun.app */,
+				9E8B94461C6E92A90025CBBA /* arcticrunTests.xctest */,
+				9E8B94511C6E92A90025CBBA /* arcticrunUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E8B94341C6E92A90025CBBA /* arcticrun */ = {
+			isa = PBXGroup;
+			children = (
+				5784A7231C76F19300EFBD10 /* arcticrun.entitlements */,
+				7C27F0C71C76A604005484DE /* SWRevealViewController */,
+				9E8B94351C6E92A90025CBBA /* AppDelegate.swift */,
+				9E8B94371C6E92A90025CBBA /* ViewController.swift */,
+				C259E4EE1C77C56D009539CC /* MapViewController.swift */,
+				7C27F0D61C76BFCE005484DE /* HomePageViewController.swift */,
+				7C27F0D81C76C023005484DE /* FitnessViewController.swift */,
+				9E8B94391C6E92A90025CBBA /* Main.storyboard */,
+				87B209311C77EB6100DDD815 /* HomeController.storyboard */,
+				87B2092E1C77EB5200DDD815 /* FitnessController.storyboard */,
+				87B2092C1C77EB3500DDD815 /* PedometerController.storyboard */,
+				87B209291C77E9A700DDD815 /* PartyController.storyboard */,
+				87B209251C77E7BB00DDD815 /* GoalsController.storyboard */,
+				87B209271C77E8E100DDD815 /* PartyViewController.swift */,
+				7C27F0DC1C76C0B7005484DE /* DailyGoalViewController.swift */,
+				7C27F0DA1C76C07A005484DE /* PedometerViewController.swift */,
+				9E8B943C1C6E92A90025CBBA /* Assets.xcassets */,
+				9E8B943E1C6E92A90025CBBA /* LaunchScreen.storyboard */,
+				9E8B94411C6E92A90025CBBA /* Info.plist */,
+			);
+			path = arcticrun;
+			sourceTree = "<group>";
+		};
+		9E8B94491C6E92A90025CBBA /* arcticrunTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E8B944A1C6E92A90025CBBA /* arcticrunTests.swift */,
+				9E8B944C1C6E92A90025CBBA /* Info.plist */,
+			);
+			path = arcticrunTests;
+			sourceTree = "<group>";
+		};
+		9E8B94541C6E92A90025CBBA /* arcticrunUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E8B94551C6E92A90025CBBA /* arcticrunUITests.swift */,
+				9E8B94571C6E92A90025CBBA /* Info.plist */,
+			);
+			path = arcticrunUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E8B94311C6E92A90025CBBA /* arcticrun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8B945A1C6E92A90025CBBA /* Build configuration list for PBXNativeTarget "arcticrun" */;
+			buildPhases = (
+				9E8B942E1C6E92A90025CBBA /* Sources */,
+				9E8B942F1C6E92A90025CBBA /* Frameworks */,
+				9E8B94301C6E92A90025CBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arcticrun;
+			productName = arcticrun;
+			productReference = 9E8B94321C6E92A90025CBBA /* arcticrun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E8B94451C6E92A90025CBBA /* arcticrunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8B945D1C6E92A90025CBBA /* Build configuration list for PBXNativeTarget "arcticrunTests" */;
+			buildPhases = (
+				9E8B94421C6E92A90025CBBA /* Sources */,
+				9E8B94431C6E92A90025CBBA /* Frameworks */,
+				9E8B94441C6E92A90025CBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E8B94481C6E92A90025CBBA /* PBXTargetDependency */,
+			);
+			name = arcticrunTests;
+			productName = arcticrunTests;
+			productReference = 9E8B94461C6E92A90025CBBA /* arcticrunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E8B94501C6E92A90025CBBA /* arcticrunUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E8B94601C6E92A90025CBBA /* Build configuration list for PBXNativeTarget "arcticrunUITests" */;
+			buildPhases = (
+				9E8B944D1C6E92A90025CBBA /* Sources */,
+				9E8B944E1C6E92A90025CBBA /* Frameworks */,
+				9E8B944F1C6E92A90025CBBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E8B94531C6E92A90025CBBA /* PBXTargetDependency */,
+			);
+			name = arcticrunUITests;
+			productName = arcticrunUITests;
+			productReference = 9E8B94511C6E92A90025CBBA /* arcticrunUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E8B942A1C6E92A90025CBBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					Map,
+				);
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = COMP4977iPhoneTeam;
+				TargetAttributes = {
+					9E8B94311C6E92A90025CBBA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L9GR6R2227;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					9E8B94451C6E92A90025CBBA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9E8B94311C6E92A90025CBBA;
+					};
+					9E8B94501C6E92A90025CBBA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9E8B94311C6E92A90025CBBA;
+					};
+				};
+			};
+			buildConfigurationList = 9E8B942D1C6E92A90025CBBA /* Build configuration list for PBXProject "arcticrun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E8B94291C6E92A90025CBBA;
+			productRefGroup = 9E8B94331C6E92A90025CBBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E8B94311C6E92A90025CBBA /* arcticrun */,
+				9E8B94451C6E92A90025CBBA /* arcticrunTests */,
+				9E8B94501C6E92A90025CBBA /* arcticrunUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E8B94301C6E92A90025CBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B209301C77EB5200DDD815 /* FitnessController.storyboard in Resources */,
+				9E8B94401C6E92A90025CBBA /* LaunchScreen.storyboard in Resources */,
+				9E8B943D1C6E92A90025CBBA /* Assets.xcassets in Resources */,
+				87B2092B1C77E9A700DDD815 /* PartyController.storyboard in Resources */,
+				87B209261C77E7BB00DDD815 /* GoalsController.storyboard in Resources */,
+				87B209321C77EB6100DDD815 /* HomeController.storyboard in Resources */,
+				87B2092D1C77EB3500DDD815 /* PedometerController.storyboard in Resources */,
+				9E8B943B1C6E92A90025CBBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8B94441C6E92A90025CBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8B944F1C6E92A90025CBBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E8B942E1C6E92A90025CBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C27F0DB1C76C07A005484DE /* PedometerViewController.swift in Sources */,
+				7C27F0DD1C76C0B7005484DE /* DailyGoalViewController.swift in Sources */,
+				7C27F0D71C76BFCE005484DE /* HomePageViewController.swift in Sources */,
+				7C27F0D91C76C023005484DE /* FitnessViewController.swift in Sources */,
+				87B209281C77E8E100DDD815 /* PartyViewController.swift in Sources */,
+				9E8B94381C6E92A90025CBBA /* ViewController.swift in Sources */,
+				9E8B94361C6E92A90025CBBA /* AppDelegate.swift in Sources */,
+				7C27F0CB1C76A655005484DE /* SWRevealViewController.m in Sources */,
+				C259E4EF1C77C56D009539CC /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8B94421C6E92A90025CBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8B944B1C6E92A90025CBBA /* arcticrunTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E8B944D1C6E92A90025CBBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E8B94561C6E92A90025CBBA /* arcticrunUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E8B94481C6E92A90025CBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E8B94311C6E92A90025CBBA /* arcticrun */;
+			targetProxy = 9E8B94471C6E92A90025CBBA /* PBXContainerItemProxy */;
+		};
+		9E8B94531C6E92A90025CBBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E8B94311C6E92A90025CBBA /* arcticrun */;
+			targetProxy = 9E8B94521C6E92A90025CBBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87B209291C77E9A700DDD815 /* PartyController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B2092A1C77E9A700DDD815 /* Base */,
+			);
+			name = PartyController.storyboard;
+			sourceTree = "<group>";
+		};
+		87B2092E1C77EB5200DDD815 /* FitnessController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B2092F1C77EB5200DDD815 /* Base */,
+			);
+			name = FitnessController.storyboard;
+			sourceTree = "<group>";
+		};
+		9E8B94391C6E92A90025CBBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8B943A1C6E92A90025CBBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E8B943E1C6E92A90025CBBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E8B943F1C6E92A90025CBBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E8B94581C6E92A90025CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E8B94591C6E92A90025CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E8B945B1C6E92A90025CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = arcticrun/arcticrun.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = arcticrun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terratap.arcticrun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "arcticrun/arcticrun-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E8B945C1C6E92A90025CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = arcticrun/arcticrun.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = arcticrun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terratap.arcticrun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "arcticrun/arcticrun-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9E8B945E1C6E92A90025CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = arcticrunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terratap.arcticrunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arcticrun.app/arcticrun";
+			};
+			name = Debug;
+		};
+		9E8B945F1C6E92A90025CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = arcticrunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terratap.arcticrunTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arcticrun.app/arcticrun";
+			};
+			name = Release;
+		};
+		9E8B94611C6E92A90025CBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = arcticrunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terratap.arcticrunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = arcticrun;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9E8B94621C6E92A90025CBBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = arcticrunUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terratap.arcticrunUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = arcticrun;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E8B942D1C6E92A90025CBBA /* Build configuration list for PBXProject "arcticrun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8B94581C6E92A90025CBBA /* Debug */,
+				9E8B94591C6E92A90025CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8B945A1C6E92A90025CBBA /* Build configuration list for PBXNativeTarget "arcticrun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8B945B1C6E92A90025CBBA /* Debug */,
+				9E8B945C1C6E92A90025CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8B945D1C6E92A90025CBBA /* Build configuration list for PBXNativeTarget "arcticrunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8B945E1C6E92A90025CBBA /* Debug */,
+				9E8B945F1C6E92A90025CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E8B94601C6E92A90025CBBA /* Build configuration list for PBXNativeTarget "arcticrunUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E8B94611C6E92A90025CBBA /* Debug */,
+				9E8B94621C6E92A90025CBBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E8B942A1C6E92A90025CBBA /* Project object */;
+}
